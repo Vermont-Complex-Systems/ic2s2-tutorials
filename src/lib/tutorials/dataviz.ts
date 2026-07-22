@@ -8,9 +8,9 @@ export const dataviz: Tutorial = {
 	kicker: 'IC²S² 2026 Tutorial',
 	title:
 		'Where Creativity Meets Data-Driven Stories: Building Interactive Data Visualizations in Computational Social Science',
-	room: 'TBA',
-	sessionDate: 'Date TBA',
-	sessionTime: 'Half-day session · 3 hours',
+	room: 'Silver Maple (401)',
+	sessionDate: 'July 28, 2026',
+	sessionTime: '1:00 PM – 4:00 PM',
 	conferenceDates: 'July 28–31, 2026',
 	abstract: [
 		'Visual data essays and dashboards are useful in drawing attention and communicating important ideas from computational social science to the broader public. Yet what begins as a simple dataviz project often becomes increasingly hard to manage and maintain because of complexities well known by web designers but hidden from adventurous researchers.',
@@ -32,32 +32,32 @@ export const dataviz: Tutorial = {
 	],
 	schedule: [
 		{
-			time: '',
-			duration: '30 min',
+			time: '1:00 – 1:25',
+			duration: '25 min',
 			title: 'Theoretical introduction',
 			detail: 'An introduction to interactive data visualizations, including a brief look at the science of perception for dataviz, and how custom interactive visualizations differ from BI tools or interactive notebooks like Quarto (Python/R/Julia) or Streamlit (Python).'
 		},
 		{
-			time: '',
+			time: '1:25 – 2:25',
 			duration: '60 min',
 			title: 'Standalone web apps, with case studies',
 			detail: 'A brief introduction to data-driven interactive visualization on static websites, showing scrollytelling techniques and dashboards.'
 		},
 		{
-			time: '',
-			duration: '15 min',
+			time: '2:25 – 2:35',
+			duration: '10 min',
 			title: 'Break',
 			detail: 'Stretch and refill before the next session.'
 		},
 		{
-			time: '',
+			time: '2:35 – 3:35',
 			duration: '60 min',
 			title: 'API-first approach, with case studies',
 			detail: 'Recognizing the need for an API-first approach, where the interface fetches data from a database.'
 		},
 		{
-			time: '',
-			duration: '30 min',
+			time: '3:35 – 4:00',
+			duration: '25 min',
 			title: 'Start simple, add complexity progressively',
 			detail: 'The progressive-enhancement philosophy for web apps: maximizing the long-term survival of your apps by providing static fallbacks to your dynamic ones.'
 		}
