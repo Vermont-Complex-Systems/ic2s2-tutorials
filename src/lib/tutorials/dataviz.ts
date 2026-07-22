@@ -70,7 +70,7 @@ export const dataviz: Tutorial = {
 		'Avoid common pitfalls — including dashboard rot and performance problems — when deploying and hosting web apps.',
 		'Apply progressive enhancement to maximize the long-term survival of interactive visualizations.'
 	],
-	signupUrl: 'https://forms.gle/ukdQxF8JA9UsPg1S7',
+	signupUrl: 'https://forms.gle/927oS78uXQm6Sxv3A',
 	organizers: [
 		{
 			name: 'Ben Dexter Cooley',
