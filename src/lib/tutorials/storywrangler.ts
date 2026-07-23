@@ -25,37 +25,53 @@ export const storywrangler: Tutorial = {
 		{
 			title: 'Python is a bonus, not a requirement',
 			detail: 'Some familiarity with Python is beneficial for following along with the notebooks, but it is not needed to take part.'
+		},
+		{
+			title: 'Bring a laptop if you can',
+			detail: 'The hands-on portion runs in Google Colab notebooks, so bring a laptop if you can to follow along. Everything is browser-based, with no local setup required.'
 		}
 	],
 	schedule: [
 		{
-			time: '9:00 – 9:50',
-			duration: '50 min',
+			time: '9:00 – 9:45',
+			duration: '45 min',
 			title: 'Introduction to the StoryWrangler platform',
-			detail: 'We present the web interfaces and Python package by which users can conduct their own analysis of Twitter, Wikipedia, Reddit, and Google Books. We go over a few results from ongoing scientific projects using the StoryWrangler platform when measuring collective attention on a set of interconnected ecological time series. We provide Jupyter notebooks to access the data and platform.'
+			detail: 'We present the web interfaces and Python package by which users can conduct their own analysis of Twitter, Wikipedia, Reddit, and Google Books. We go over a few results from ongoing scientific projects using the StoryWrangler platform when measuring collective attention on a set of interconnected ecological time series.'
 		},
 		{
-			time: '9:50 – 10:00',
-			duration: '10 min',
+			time: '9:45 – 10:05',
+			duration: '20 min',
+			title: 'Demo: exploring the platform',
+			detail: 'A live walkthrough of the web interfaces and Python package. We demo how to explore Twitter, Wikipedia, Reddit, and Google Books, and surface a few results from ongoing projects using the platform.'
+		},
+		{
+			time: '10:05 – 10:20',
+			duration: '15 min',
 			title: 'Break',
 			detail: 'Stretch and refill before the next session.'
 		},
 		{
-			time: '10:00 – 10:50',
-			duration: '50 min',
+			time: '10:20 – 10:55',
+			duration: '35 min',
 			title: 'Introduction to divergence metrics and other instruments',
-			detail: 'We offer a brief explainer of the mathematics behind our rank divergence metric of choice: the rank-turbulence divergence (RTD). RTD is a visualization instrument designed for the comparison of any two ranked lists of heavy-tailed distributions which exhibit type turbulence. Following this introduction to RTD, we introduce a number of tools building on divergence metrics to capture collective attention (Allotaxonometry and Ousiometry).'
+			detail: 'We offer a brief explainer of the mathematics behind our rank divergence metric of choice: the rank-turbulence divergence (RTD). RTD is a visualization instrument designed for the comparison of any two ranked lists of heavy-tailed distributions which exhibit type turbulence. Following this introduction to RTD, we introduce a number of tools building on divergence metrics to capture collective attention (Allotaxonometry and Ousiometry) and sentiment shifts (Hedonometer).'
 		},
 		{
-			time: '10:50 – 11:00',
+			time: '10:55 – 11:15',
+			duration: '20 min',
+			title: 'Hands-on: getting started with the Jupyter notebooks',
+			detail: 'We provide Jupyter notebooks to access the data and platform, and get you set up in Google Colab so you can start running your own queries.'
+		},
+		{
+			time: '11:15 – 11:25',
 			duration: '10 min',
 			title: 'Break',
 			detail: 'Stretch and refill before the final session.'
 		},
 		{
-			time: '11:00 – 12:00',
-			duration: '60 min',
-			title: 'Infrastructure considerations',
+			time: '11:25 – 12:00',
+			duration: '35 min',
+			title: 'Infrastructure considerations and conclusion',
 			detail: 'How do we make a unified platform integrating diverse large-scale corpora maintainable, interoperable, and performant? How can people participate and collaborate in the future?'
 		}
 	],
