@@ -59,6 +59,28 @@ export const storywrangler: Tutorial = {
 			detail: 'How do we make a unified platform integrating diverse large-scale corpora maintainable, interoperable, and performant? How can people participate and collaborate in the future?'
 		}
 	],
+	notebooks: [
+		{
+			title: 'Getting started',
+			url: 'https://colab.research.google.com/drive/1j6nxG0iMFaGXBoK9iaxc-NQwckcQgz9F?usp=sharing'
+		},
+		{
+			title: 'Multiplatform',
+			url: 'https://colab.research.google.com/drive/1I-PPb4kLXbVWApx-jn77pZOU0NVfIweV?usp=sharing'
+		},
+		{
+			title: 'Instruments',
+			url: 'https://colab.research.google.com/drive/1cZq56-RbilZgaog39Zx-_qShDL_iML_u?usp=sharing'
+		},
+		{
+			title: 'Data registering',
+			url: 'https://colab.research.google.com/drive/1nVZbIvMZj6_cQmNOB0YPWFgDSWmzGJ9G?usp=sharing'
+		},
+		{
+			title: 'MCP and skills',
+			url: 'https://colab.research.google.com/drive/1rd4keDwl5AARVxNUIatRYKU0zSWW633X?usp=sharing'
+		}
+	],
 	outcomes: [
 		'Apply rank-turbulence divergence and related measurements to detect shifts in collective attention across multiple platforms.',
 		'Explore visualizations and access data through the web portals, following a no-code route.',

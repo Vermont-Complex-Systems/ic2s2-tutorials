@@ -20,6 +20,11 @@ export type Prerequisite = {
 	detail: string;
 };
 
+export type Notebook = {
+	title: string;
+	url: string;
+};
+
 export type Tutorial = {
 	/** Route slug, e.g. "storywrangler" (matches src/routes/<slug>). */
 	slug: string;
@@ -37,6 +42,8 @@ export type Tutorial = {
 	prerequisitesIntro: string;
 	prerequisites: Prerequisite[];
 	schedule: ScheduleBlock[];
+	/** Colab notebooks for the hands-on portion. */
+	notebooks?: Notebook[];
 	outcomes: string[];
 	signupUrl: string;
 	organizers: Organizer[];

@@ -15,6 +15,7 @@
 	import Mail from '@lucide/svelte/icons/mail';
 	import Sparkles from '@lucide/svelte/icons/sparkles';
 	import ExternalLink from '@lucide/svelte/icons/external-link';
+	import Notebook from '@lucide/svelte/icons/notebook';
 
 	import { tutorials, tutorialsBySlug, type Tutorial } from '$lib/tutorials';
 
@@ -218,6 +219,29 @@
 				</Card.Root>
 			{/each}
 		</div>
+
+		{#if tutorial.notebooks?.length}
+			<h3 class="mt-12 text-lg font-semibold">Hands-on notebooks</h3>
+			<p class="text-muted-foreground mt-1 text-sm">
+				Follow along in Google Colab — no setup required.
+			</p>
+			<div class="mt-4 grid gap-3 sm:grid-cols-2">
+				{#each tutorial.notebooks as notebook (notebook.url)}
+					<a
+						href={notebook.url}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="bg-card hover:border-primary/50 hover:bg-accent flex items-center justify-between gap-3 rounded-lg border p-4 text-sm font-medium transition-colors"
+					>
+						<span class="flex items-center gap-2">
+							<Notebook class="text-muted-foreground size-4 shrink-0" />
+							{notebook.title}
+						</span>
+						<ExternalLink class="text-muted-foreground size-3.5 shrink-0" />
+					</a>
+				{/each}
+			</div>
+		{/if}
 	</section>
 
 	<Separator />
