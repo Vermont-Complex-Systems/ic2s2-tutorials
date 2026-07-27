@@ -34,13 +34,13 @@ export const dataviz: Tutorial = {
 		{
 			time: '1:00 – 1:15',
 			duration: '15 min',
-			title: 'Theoretical introduction',
-			detail: 'An introduction to interactive data visualizations, including a brief look at the science of perception for dataviz, and how custom interactive visualizations differ from BI tools or interactive notebooks like Quarto (Python/R/Julia) or Streamlit (Python).'
+			title: 'Introduction',
+			detail: 'A short history of data visualization.'
 		},
 		{
 			time: '1:15 – 2:05',
 			duration: '50 min',
-			title: 'Theoretical introduction',
+			title: 'Data visualization — perception, attention, and memory',
 			detail: 'An introduction to interactive data visualizations, including a brief look at the science of perception for dataviz, and how custom interactive visualizations differ from BI tools or interactive notebooks like Quarto (Python/R/Julia) or Streamlit (Python).'
 		},
 		{
@@ -50,16 +50,16 @@ export const dataviz: Tutorial = {
 			detail: 'Stretch and refill before the next session.'
 		},
 		{
-			time: '2:15-2:40',
-			duration: '35 min',
-			title: ' Building blocks of visual data essays',
+			time: '2:15 – 2:40',
+			duration: '25 min',
+			title: 'Building blocks of visual data essays',
 			detail: 'A brief introduction to data-driven interactive visualization on static websites, showing scrollytelling techniques and dashboards.'
 		},
 		{
 			time: '2:40 – 3:00',
 			duration: '20 min',
 			title: 'The tools of the artist',
-			detail: 'Intro to d3.js, SVG, and style of reactive programming'
+			detail: 'Intro to d3.js, SVG, and the style of reactive programming.'
 		},
 		{
 			time: '3:00 – 3:10',
@@ -70,7 +70,7 @@ export const dataviz: Tutorial = {
 		{
 			time: '3:10 – 3:25',
 			duration: '15 min',
-			title: 'Hands on exercices',
+			title: 'Hands-on exercises',
 			detail: 'https://svelte.dev/playground/85c6168428c44790b150a62e5edc92bb?version=5.56.8'
 		},
 		{
