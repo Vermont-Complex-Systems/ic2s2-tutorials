@@ -32,34 +32,52 @@ export const dataviz: Tutorial = {
 	],
 	schedule: [
 		{
-			time: '1:00 – 1:25',
-			duration: '25 min',
+			time: '1:00 – 1:15',
+			duration: '15 min',
 			title: 'Theoretical introduction',
 			detail: 'An introduction to interactive data visualizations, including a brief look at the science of perception for dataviz, and how custom interactive visualizations differ from BI tools or interactive notebooks like Quarto (Python/R/Julia) or Streamlit (Python).'
 		},
 		{
-			time: '1:25 – 2:25',
-			duration: '60 min',
-			title: 'Standalone web apps, with case studies',
-			detail: 'A brief introduction to data-driven interactive visualization on static websites, showing scrollytelling techniques and dashboards.'
+			time: '1:15 – 2:05',
+			duration: '50 min',
+			title: 'Theoretical introduction',
+			detail: 'An introduction to interactive data visualizations, including a brief look at the science of perception for dataviz, and how custom interactive visualizations differ from BI tools or interactive notebooks like Quarto (Python/R/Julia) or Streamlit (Python).'
 		},
 		{
-			time: '2:25 – 2:35',
+			time: '2:05 – 2:15',
 			duration: '10 min',
 			title: 'Break',
 			detail: 'Stretch and refill before the next session.'
 		},
 		{
-			time: '2:35 – 3:35',
-			duration: '60 min',
-			title: 'API-first approach, with case studies',
-			detail: 'Recognizing the need for an API-first approach, where the interface fetches data from a database.'
+			time: '2:15-2:40',
+			duration: '35 min',
+			title: ' Building blocks of visual data essays',
+			detail: 'A brief introduction to data-driven interactive visualization on static websites, showing scrollytelling techniques and dashboards.'
 		},
 		{
-			time: '3:35 – 4:00',
-			duration: '25 min',
-			title: 'Start simple, add complexity progressively',
-			detail: 'The progressive-enhancement philosophy for web apps: maximizing the long-term survival of your apps by providing static fallbacks to your dynamic ones.'
+			time: '2:40 – 3:00',
+			duration: '20 min',
+			title: 'The tools of the artist',
+			detail: 'Intro to d3.js, SVG, and style of reactive programming'
+		},
+		{
+			time: '3:00 – 3:10',
+			duration: '10 min',
+			title: 'Break',
+			detail: 'Stretch and refill before the next session.'
+		},
+		{
+			time: '3:10 – 3:25',
+			duration: '15 min',
+			title: 'Hands on exercices',
+			detail: 'https://svelte.dev/playground/85c6168428c44790b150a62e5edc92bb?version=5.56.8'
+		},
+		{
+			time: '3:25 – 4:00',
+			duration: '35 min',
+			title: 'Hosting & Deployment',
+			detail: 'The tradeoffs between static and dynamic websites.'
 		}
 	],
 	outcomes: [
