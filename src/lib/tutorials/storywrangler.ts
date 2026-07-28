@@ -89,6 +89,10 @@ export const storywrangler: Tutorial = {
 			url: 'https://colab.research.google.com/drive/1cZq56-RbilZgaog39Zx-_qShDL_iML_u?usp=sharing'
 		},
 		{
+			title: 'Countries timeseries',
+			url: 'https://colab.research.google.com/github/Vermont-Complex-Systems/storywrangler/blob/main/notebooks/country_timeseries.ipynb'
+		},
+		{
 			title: 'Data registering',
 			url: 'https://colab.research.google.com/drive/1nVZbIvMZj6_cQmNOB0YPWFgDSWmzGJ9G?usp=sharing'
 		},
